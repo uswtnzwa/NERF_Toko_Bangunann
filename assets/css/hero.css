@@ -1,0 +1,57 @@
+/* =========================================================
+   HERO - blok pembuka besar di beranda.php
+   ========================================================= */
+
+.hero {
+    background: linear-gradient(110deg, #071a2f, #145da0); color: #fff;
+    border-radius: 20px; padding: 60px 50px; margin: 26px auto;
+    position: relative; overflow: hidden;
+}
+.hero::after {
+    content: ""; position: absolute; right: -90px; top: -90px;
+    width: 320px; height: 320px; background: rgba(255, 255, 255, .05); border-radius: 50%;
+}
+.hero h1 { font-size: 44px; line-height: 1.15; font-weight: 800; }
+.hero p { color: #d9e6f5; max-width: 560px; }
+.badge-erp {
+    background: rgba(255, 255, 255, .12); color: #cfe4ff;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+/* ---------- kartu kategori ---------- */
+.kategori-card {
+    background: #fff; border: 1px solid #e7ebf0; border-radius: 14px; padding: 22px;
+    text-decoration: none; color: inherit; display: block; height: 100%; transition: .2s;
+}
+.kategori-card:hover {
+    transform: translateY(-4px); box-shadow: 0 10px 26px rgba(7, 26, 47, .08);
+    border-color: #1473e6; color: inherit;
+}
+.kategori-card .ikon {
+    width: 44px; height: 44px; border-radius: 11px; background: #eaf2fd; color: #1473e6;
+    display: flex; align-items: center; justify-content: center; font-size: 20px; margin-bottom: 12px;
+}
+.kategori-card .nama { font-weight: 700; font-size: 15px; }
+.kategori-card .harga { font-size: 12px; color: #64748b; margin-top: 6px; }
+
+/* ---------- banner promo ---------- */
+.banner-card {
+    border-radius: 16px; color: #fff; padding: 26px; height: 100%;
+    display: flex; flex-direction: column; justify-content: center;
+}
+.banner-card h5 { font-weight: 800; margin-bottom: 6px; }
+.banner-card p { font-size: 14px; opacity: .9; margin-bottom: 14px; }
+
+/* ---------- testimoni ---------- */
+.testimoni-card { background: #fff; border: 1px solid #e7ebf0; border-radius: 14px; padding: 22px; height: 100%; }
+.testimoni-card .bintang { color: #f59e0b; font-size: 14px; }
+
+/* ---------- FAQ ---------- */
+.faq-item { background: #fff; border: 1px solid #e7ebf0; border-radius: 12px; margin-bottom: 10px; }
+.faq-item .btn { font-weight: 600; font-size: 14px; text-align: left; color: #172033; }
+.faq-item .collapse p { color: #64748b; font-size: 14px; margin: 0; }
+
+@media (max-width: 900px) {
+    .hero { padding: 38px 26px; }
+    .hero h1 { font-size: 30px; }
+}

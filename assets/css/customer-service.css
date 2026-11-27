@@ -1,0 +1,104 @@
+/* =========================================================
+   Halaman CUSTOMER SERVICE (WhatsApp) - toko depan
+   Dipakai bersama assets/css/toko.css
+   ========================================================= */
+
+.cs-hero {
+    background: linear-gradient(135deg, #071a2f 0%, #0d3559 100%);
+    color: #fff;
+    border-radius: 18px;
+    padding: 38px 34px;
+    margin-top: 28px;
+    overflow: hidden;
+    position: relative;
+}
+.cs-hero::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    top: -90px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: rgba(37, 211, 102, .08);
+}
+.cs-eyebrow {
+    display: inline-block;
+    color: #25d366;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.cs-hero h1 {
+    font-size: clamp(24px, 3.4vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 12px;
+}
+.cs-hero p.cs-sub {
+    color: #c8d8ea;
+    font-size: 15px;
+    max-width: 620px;
+    margin: 0 0 22px;
+}
+.cs-ikon-besar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 58px;
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, .12);
+    margin: 0 auto 18px;
+}
+.cs-jam {
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 13px;
+    color: #e6eef8;
+}
+.cs-jam i { color: #25d366; margin-right: 6px; }
+
+/* Tombol utama WhatsApp */
+.btn-cs {
+    background: #25d366;
+    border: 1px solid #25d366;
+    color: #06210f;
+    font-weight: 700;
+    padding: .7rem 1.6rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(37, 211, 102, .25);
+}
+.btn-cs:hover, .btn-cs:focus {
+    background: #1ebe5d;
+    border-color: #1ebe5d;
+    color: #fff;
+}
+.btn-cs i { font-size: 20px; vertical-align: -2px; margin-right: 6px; }
+.cs-alihkan { color: #bcd0e6; font-size: 13px; margin: 14px 0 0; }
+.cs-alihkan a { color: #25d366; font-weight: 600; }
+
+.cs-kontak {
+    background: #fff;
+    border: 1px solid #e7ebf0;
+    border-radius: 14px;
+    padding: 22px;
+    margin-top: 26px;
+}
+.cs-kontak h5 { font-weight: 700; margin-bottom: 16px; }
+.cs-kontak .baris {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 6px 0;
+    color: #475569;
+}
+.cs-kontak .baris i { color: #1473e6; width: 18px; text-align: center; }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Kategori Industri">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1636"/>
+      <stop offset="0.55" stop-color="#4a3a8c"/>
+      <stop offset="1" stop-color="#6d5bd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1010" cy="90" r="220" fill="#ffffff" opacity="0.07"/>
+  <circle cx="130" cy="570" r="250" fill="#ffffff" opacity="0.06"/>
+  <rect x="80" y="92" width="120" height="9" rx="4" fill="#cfc6ff"/>
+  <text x="80" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="100" font-weight="700" fill="#ffffff" letter-spacing="2">INDUSTRI</text>
+  <text x="84" y="398" font-family="Segoe UI, Arial, sans-serif" font-size="36" fill="#e6e0ff">NERF Toko Bangunan</text>
+  <text x="85" y="462" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#c4b8f5">Tren &amp; dinamika dunia konstruksi</text>
+  <g transform="translate(950 425)" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="8">
+    <path d="M0 110V50l45 25V50l45 25V40h30v70z"/>
+    <path d="M0 110h120"/>
+  </g>
+</svg>

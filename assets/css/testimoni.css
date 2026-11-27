@@ -1,0 +1,49 @@
+/* =========================================================
+   TESTIMONI - halaman testimoni.php (toko depan)
+   Form rating bintang + daftar testimoni milik pelanggan.
+   ========================================================= */
+
+/* ---------- rating bintang ---------- */
+.pilih-bintang {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.bintang-pilih {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    background: #fff;
+    transition: .15s;
+}
+.bintang-pilih:hover {
+    border-color: #1473e6;
+    background: #f5faff;
+}
+.bintang-pilih i {
+    color: #cbd5e1;
+    font-size: 18px;
+    transition: .15s;
+}
+.bintang-pilih:hover i,
+.bintang-pilih:has(input:checked) i {
+    color: #f59e0b;
+}
+.bintang-pilih:has(input:checked) {
+    border-color: #1473e6;
+    background: #eef6ff;
+}
+.bintang-pilih:has(input:focus-visible) {
+    outline: 2px solid #1473e6;
+    outline-offset: 2px;
+}
+
+/* ---------- daftar testimoni sendiri ---------- */
+.ringkasan-kotak .bintang {
+    color: #f59e0b;
+    font-size: 13px;
+}

@@ -1,0 +1,83 @@
+/* =========================================================
+   PENGATURAN AKUN - pengaturan.php
+   ========================================================= */
+
+.kepala-pengaturan {
+    background: linear-gradient(110deg, #071a2f, #145da0);
+    color: #fff; border-radius: 18px; padding: 26px 30px; margin: 16px 0 22px;
+}
+.kepala-pengaturan h1 { font-size: 25px; font-weight: 800; margin: 0 0 5px; }
+.kepala-pengaturan h1 i { color: #2991ff; }
+.kepala-pengaturan p { margin: 0; color: #d9e6f5; font-size: 14px; }
+
+/* ---------- sidebar ---------- */
+.akun-sidebar {
+    background: #fff; border: 1px solid #e7ebf0; border-radius: 14px;
+    overflow: hidden; position: sticky; top: 86px;
+}
+.akun-identitas { padding: 22px 16px; text-align: center; border-bottom: 1px solid #eef1f5; }
+.akun-foto {
+    width: 64px; height: 64px; border-radius: 50%; margin: 0 auto;
+    background: #1473e6; color: #fff; display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 20px; overflow: hidden;
+}
+.akun-foto img { width: 100%; height: 100%; object-fit: cover; }
+.akun-menu { padding: 10px; }
+.akun-menu a {
+    display: flex; align-items: center; gap: 10px; text-decoration: none;
+    color: #475569; font-size: 13px; font-weight: 600;
+    padding: 10px 12px; border-radius: 9px; margin-bottom: 3px;
+}
+.akun-menu a i { color: #94a3b8; font-size: 15px; }
+.akun-menu a:hover { background: #f4f8fd; color: #1473e6; }
+.akun-menu a.aktif { background: #eaf3ff; color: #1473e6; }
+.akun-menu a.aktif i { color: #1473e6; }
+.akun-menu hr { margin: 10px 8px; border-color: #eef1f5; }
+
+/* ---------- kotak pengaturan ---------- */
+.pengaturan-kotak {
+    background: #fff; border: 1px solid #e7ebf0; border-radius: 14px;
+    padding: 24px; margin-bottom: 22px; scroll-margin-top: 86px;
+}
+.pengaturan-judul { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 22px; }
+.pengaturan-ikon {
+    width: 40px; height: 40px; border-radius: 11px; background: #eaf3ff; color: #1473e6;
+    display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;
+}
+.pengaturan-judul h2 { font-size: 17px; font-weight: 800; margin: 0 0 3px; }
+.pengaturan-judul p { color: #64748b; font-size: 13px; margin: 0; }
+.pengaturan-aksi {
+    margin-top: 22px; padding-top: 18px; border-top: 1px solid #eef1f5;
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+
+/* ---------- foto profil ---------- */
+.pratinjau-foto {
+    width: 62px; height: 62px; border-radius: 12px; flex-shrink: 0;
+    background: #1473e6; color: #fff; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 18px;
+}
+.pratinjau-foto img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- notifikasi ---------- */
+.daftar-notifikasi { display: grid; gap: 10px; }
+.notifikasi-item {
+    display: flex; align-items: center; gap: 13px; cursor: pointer;
+    border: 1px solid #e7ebf0; border-radius: 11px; padding: 13px 15px;
+    transition: .15s;
+}
+.notifikasi-item:hover { border-color: #bcd8f7; background: #fafcff; }
+.notifikasi-ikon {
+    width: 36px; height: 36px; border-radius: 10px; background: #f1f5f9; color: #1473e6;
+    display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;
+}
+.notifikasi-item .form-check-input { width: 2.2em; cursor: pointer; }
+
+/* ---------- responsif ---------- */
+@media (max-width: 991px) {
+    .akun-sidebar { position: static; }
+    .akun-menu { display: flex; flex-wrap: wrap; gap: 4px; }
+    .akun-menu a { margin-bottom: 0; }
+    .akun-menu hr { display: none; }
+}

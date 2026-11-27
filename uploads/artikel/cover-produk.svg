@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Kategori Produk">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06294a"/>
+      <stop offset="0.55" stop-color="#0f5fa8"/>
+      <stop offset="1" stop-color="#1473e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1010" cy="80" r="220" fill="#ffffff" opacity="0.07"/>
+  <circle cx="120" cy="580" r="260" fill="#ffffff" opacity="0.06"/>
+  <rect x="80" y="92" width="120" height="9" rx="4" fill="#8ecbff"/>
+  <text x="80" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="104" font-weight="700" fill="#ffffff" letter-spacing="2">PRODUK</text>
+  <text x="84" y="398" font-family="Segoe UI, Arial, sans-serif" font-size="36" fill="#d5e9ff">NERF Toko Bangunan</text>
+  <text x="85" y="462" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#a9d2ff">Panduan &amp; ulasan material konstruksi</text>
+  <g transform="translate(930 430)" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="8">
+    <rect x="0" y="0" width="120" height="90" rx="10"/>
+    <path d="M0 45h120M60 0v90"/>
+  </g>
+</svg>
